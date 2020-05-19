@@ -1,0 +1,5 @@
+<!ELEMENT juegos (juego+)>
+<!ELEMENT juego (titulo,consola,precio)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT consola (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>

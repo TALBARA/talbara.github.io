@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE soporte SYSTEM "Soporte.dtd">
+<soporte>
+    <contacto>
+        <telefono>912387648</telefono>
+        <correoElectronico>supportApp@telefonica.com</correoElectronico>
+    </contacto>
+    <metodosDePago>
+        <pago>PayPal</pago>
+        <pago>Visa</pago>
+        <pago>MasterCard</pago>
+    </metodosDePago>
+</soporte>

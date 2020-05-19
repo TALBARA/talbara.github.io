@@ -1,0 +1,177 @@
+body{
+  margin: 0;
+  margin-bottom: 40px;
+  background-color: #C3BABA;
+}
+
+ul{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+
+}
+
+nav{
+
+background-color: black;
+
+}
+
+li a{
+
+display: block;
+color: white ;
+text-align: center;
+padding: 20px 20px;
+text-decoration: none;
+float: left;
+font-family: sans-serif;
+font-size: 20px;
+
+}
+
+
+li a:hover{
+
+color: red;
+
+}
+
+footer{
+
+background-color: #900917;
+position: absolute;
+width: 100%;
+height: 87px;
+margin-top: 2%;
+
+}
+
+button{
+
+border-radius: 15px;
+
+}
+
+#buscar{
+
+height: 20px;
+border-radius: 15px;
+margin-top: 18px;
+padding-left:12px;
+
+
+}
+
+
+#carrito{
+
+height: 30px;
+width: 30px;
+margin-top: -9px;
+
+
+}
+
+.icons{
+
+height: 40px;
+width: 40px;
+
+}
+
+.social{
+
+margin-left: 43%;
+
+}
+
+.play{
+
+height: 200px;
+width: 140px;
+
+}
+
+#stock{
+
+margin-top: 4%;
+margin-left: 2%;
+
+}
+
+.play_data{
+
+float: right;
+margin-right: 85%;
+margin-top: 2%;
+
+}
+
+.games,.g{
+
+margin-top: 2%;
+
+}
+
+.lista{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 2%;
+  
+}
+
+.juego{
+
+display: inline-block;
+padding-left: 70px;
+
+}
+
+.compra{
+
+margin-top: 10px;
+
+}
+
+h2{
+
+text-align: center;
+font-family: sans-serif;
+
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: blue; 
+  width: 100%;
+  transition: .2s ease;
+  opacity:0;
+  color: white;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+  height: 30px;
+  font-size: 20px;
+
+}
+.container:hover .overlay,a  {
+  opacity: 1;
+
+}
+
+.container {
+  position: relative;
+  width: 100px;
+
+
+}

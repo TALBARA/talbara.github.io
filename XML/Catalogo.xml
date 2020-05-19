@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE juegos SYSTEM "Catalogo.dtd">
+<?xml-stylesheet type="text/xsl" href="Catalogo.xsl"?>
+<juegos>
+    <juego>
+        <titulo>God Of War 4</titulo>
+        <consola>PS4</consola>
+        <precio>45</precio>
+    </juego>
+    <juego>
+        <titulo>Fornite</titulo>
+        <consola>PS4</consola>
+        <precio>0</precio>
+    </juego>
+    <juego>
+        <titulo>Death Stranding</titulo>
+        <consola>PS4</consola>
+        <precio>40</precio>
+    </juego>
+    <juego>
+        <titulo>Days Gone</titulo>
+        <consola>PS4</consola>
+        <precio>20</precio>
+    </juego>
+    <juego>
+        <titulo>The Last Of Us</titulo>
+        <consola>PS4</consola>
+        <precio>40</precio>
+    </juego>
+    <juego>
+        <titulo>God of War II</titulo>
+        <consola>PS4</consola>
+        <precio>27</precio>
+    </juego>
+    <juego>
+        <titulo>Animal Crossing</titulo>
+        <consola>Nintendo</consola>
+        <precio>50</precio>
+    </juego>
+    <juego>
+        <titulo>Assasins Creed Odyssey</titulo>
+        <consola>PS4</consola>
+        <precio>22</precio>
+    </juego>
+    <juego>
+        <titulo>Rainbow Six Siege</titulo>
+        <consola>PS4</consola>
+        <precio>10</precio>
+    </juego>
+    <juego>
+        <titulo>World of Warcraft</titulo>
+        <consola>PC</consola>
+        <precio>70</precio>
+    </juego>
+    <juego>
+        <titulo>Mario Kart</titulo>
+        <consola>Nintendo</consola>
+        <precio>70</precio>
+    </juego>
+    <juego>
+        <titulo>Gran Theft auto</titulo>
+        <consola>PS4</consola>
+        <precio>70</precio>
+    </juego>
+    <juego>
+        <titulo>Cyberpunk</titulo>
+        <consola>PS4</consola>
+        <precio>50</precio>
+    </juego>
+    <juego>
+        <titulo>Green Hell</titulo>
+        <consola>PC</consola>
+        <precio>81</precio>
+    </juego>
+    <juego>
+        <titulo>Sims 4</titulo>
+        <consola>PC</consola>
+        <precio>12</precio>
+    </juego>
+    <juego>
+        <titulo>Fifa 20</titulo>
+        <consola>PS4</consola>
+        <precio>13</precio>
+    </juego>
+</juegos>

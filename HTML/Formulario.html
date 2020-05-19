@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Santa Monica Studio</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Formulario.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="../HTML/Index.html">NEWS</a></li>
+			<li><a href="../HTML/Games.html">GAMES</a></li>
+			<li><a href="../HTML/Comunity.html">SUPPORT</a></li>
+			<li><a href="../HTML/Formulario.html" style="float: right; ">LOGIN</a></li>
+			<li><a href="../HTML/Cesta.html" style="float: right;"><img src="https://image.flaticon.com/icons/png/512/526/526732.png" id="carrito"></a></li>
+			<li><input type="text" name="" id="buscar" style="float: right;" placeholder="buscar"></li>
+		</ul>
+	</nav>
+
+  <form action="/action_page.php" method="post">
+  <div class="container">
+  <label for="uname"><b>Username</b></label>
+  <input type="text" placeholder="User Name" name="uname" required>
+
+  <label for="psw"><b>Password</b></label>
+  <input type="password" placeholder="Password" name="psw" required>
+        
+  <button type="submit">Login</button>
+  <label>
+  <input type="checkbox" checked="checked" name="remember"> Remember me
+  </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+  <button type="button" class="cancelbtn">Cancel</button>
+  <span class="psw"> ¿Se te ha olvidado la contraseña? <a href="#">Recuperar</a></span>
+  </div>
+
+</form>
+
+<script type="text/javascript" src="../JS/Index.js"></script>
+
+<footer>
+	<div>
+		<ul>
+			<li class="social"><a href="https://www.instagram.com/" onmouseover="mouseOverIG()" onmouseout="mouseOutIG()"><img src="https://image.flaticon.com/icons/svg/1384/1384015.svg" class="icons" id="insta"></a></li>
+			<li class="social"><a href="https://twitter.com/explore" onmouseover="mouseOverTW()" onmouseout="mouseOutTW()"><img src="https://image.flaticon.com/icons/svg/1384/1384017.svg"class="icons" id="twitter"></a></li>
+			<li class="social"><a href="https://www.youtube.com/" onmouseover="mouseOverYO()" onmouseout="mouseOutYO()"><img src="https://image.flaticon.com/icons/svg/1384/1384012.svg"class="icons" id="you"></a></li>
+			<li class="social"><a href="https://www.facebook.com/" onmouseover="mouseOverFB()" onmouseout="mouseOutFB()"><img src="https://image.flaticon.com/icons/svg/1384/1384005.svg"class="icons" id="face"></a></li>
+		</ul>
+	</div>   
+
+	
+
+</footer>
+
+</body>
+</html>

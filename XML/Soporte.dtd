@@ -1,0 +1,7 @@
+<!ELEMENT soporte (contacto,metodosDePago)>
+<!ELEMENT contacto (telefono,correoElectronico)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correoElectronico (#PCDATA)>
+<!ELEMENT metodosDePago (pago+)>
+<!ELEMENT pago (#PCDATA)>
+

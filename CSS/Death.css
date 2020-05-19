@@ -1,0 +1,188 @@
+body{
+  margin: 0;
+  margin-bottom: 40px;
+  overflow-x: hidden;
+  background-color: black;
+
+}
+
+ul{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+
+}
+nav{
+
+background-color: black;
+
+}
+
+li a{
+
+display: block;
+color: white ;
+text-align: center;
+padding: 20px 20px;
+text-decoration: none;
+float: left;
+font-family: sans-serif;
+font-size: 20px;
+}
+
+#fondo{
+
+background-image: url('https://images7.alphacoders.com/106/thumb-1920-1067869.png');
+
+}
+
+iframe{
+
+margin-top: 3%;
+margin-left: 24%;
+margin-bottom: 230px;
+
+}
+
+#buscar{
+
+height: 20px;
+border-radius: 15px;
+margin-top: 18px;
+padding-left:12px;
+
+
+}
+
+
+
+#carrito{
+
+height: 30px;
+width: 30px;
+margin-top: -8px;
+
+
+}
+
+#kratos{
+
+height: 800px;
+width: 100%;
+
+}
+
+#emp{
+
+height: 500px;
+width: 900px;
+border: solid black 3px;
+
+}
+
+li a:hover{
+
+color: red;
+
+}
+
+
+#documentacion{
+
+float: right;
+width: 50%;
+width: 890px;
+height: 400px;
+margin-top:60px;
+
+}
+
+h1,p{
+
+color: white ;
+
+}
+
+h1{
+
+font-size: 50px;
+color: black;
+
+}
+
+p{
+
+font-size: 20px;
+width: 40%;
+color :black;
+
+}
+
+footer{
+
+background-color:#900917;
+position: absolute;
+width: 100%;
+height: 87px;
+
+}
+
+.icons{
+
+height: 40px;
+width: 40px;
+
+}
+
+.social{
+
+margin-left: 43%;
+
+}
+
+#juego{
+
+height: 400px;
+width: 300px;
+
+}
+
+.game{
+
+float: left;
+margin-left: 4%;
+display:inline-block;
+
+}
+
+#venta{
+
+padding: 5%;
+background-image: url('https://images6.alphacoders.com/710/thumb-1920-710266.jpg');
+
+}
+
+#data{
+
+margin-left: 20%;
+
+}
+
+#go{
+
+background-color: red;
+color: white;
+
+
+}
+
+audio{
+
+
+margin-top: 60px;
+margin-left: 400px;
+
+}
