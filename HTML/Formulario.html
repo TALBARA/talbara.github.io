@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Santa Monica Studio</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../CSS/Formulario.css">
 </head>
 <body>
@@ -12,19 +13,19 @@
 			<li><a href="../HTML/Comunity.html">SUPPORT</a></li>
 			<li><a href="../HTML/Formulario.html" style="float: right; ">LOGIN</a></li>
 			<li><a href="../HTML/Cesta.html" style="float: right;"><img src="https://image.flaticon.com/icons/png/512/526/526732.png" id="carrito"></a></li>
-			<li><input type="text" name="" id="buscar" style="float: right;" placeholder="buscar"></li>
+			<li><input type="text" name="" id="buscar" style="float: right;" placeholder="Buscar..."></li>
 		</ul>
 	</nav>
 
-  <form action="/action_page.php" method="post">
+  <form>
   <div class="container">
   <label for="uname"><b>Username</b></label>
-  <input type="text" placeholder="User Name" name="uname" required>
+  <input type="text" placeholder="User Name" name="uname" required id="usuario">
 
   <label for="psw"><b>Password</b></label>
-  <input type="password" placeholder="Password" name="psw" required>
+  <input type="password" placeholder="Password" name="psw" required id="contraseña">
         
-  <button type="submit">Login</button>
+  <button type="submit" onclick="acceso()">Login</button>
   <label>
   <input type="checkbox" checked="checked" name="remember"> Remember me
   </label>
@@ -37,6 +38,7 @@
 
 </form>
 
+<script type="text/javascript" src="../JS/Formulario.js"></script>
 <script type="text/javascript" src="../JS/Index.js"></script>
 
 <footer>

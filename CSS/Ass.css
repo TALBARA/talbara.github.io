@@ -44,7 +44,7 @@ iframe{
 margin-top: 3%;
 margin-left: 24%;
 margin-bottom: 230px;
-
+border: solid black 3px;
 }
 
 #buscar{

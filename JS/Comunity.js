@@ -22,8 +22,8 @@ document.getElementById("gmail").style.background="";
  document.getElementById("gmail").style.color="";
 }
 
-function send(){
+function popUp(){
 
-alert("Gracias pronto nos pondremos en contacto contigo");
+alert("Gracias nos pondremos en contacto contigo");
 
 }
