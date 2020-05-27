@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE soporte SYSTEM "Soporte.dtd">
-<soporte>
+<soporte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Soporte.xsd">
     <contacto>
         <telefono>912387648</telefono>
         <correoElectronico>supportApp@telefonica.com</correoElectronico>

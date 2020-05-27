@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE juegos SYSTEM "Catalogo.dtd">
 <?xml-stylesheet type="text/xsl" href="Catalogo.xsl"?>
-<juegos>
+<juegos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Catalogo.xsd">
     <juego>
         <titulo>God Of War 4</titulo>
         <consola>PS4</consola>
